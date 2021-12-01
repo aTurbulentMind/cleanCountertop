@@ -5,10 +5,10 @@
 			<a  href="/">Home</a>
 		</li>
 		<li>
-			<a href="/menu">Menu</a>
+			<a href="/menu">About</a>
 		</li>
 		<li>
-			<a href="/events">Events</a>
+			<a href="/events">Gallery</a>
 		</li>
 		<li>
 			<a href="/contact">Contact</a>
@@ -72,7 +72,7 @@
             	color:$textColorMain ;
             height: 30px;
             line-height: 30px;
-            font-size: 2vmax;
+            font-size: 3vmax;
             width: 10vmax;
             margin: 3px 0;
             padding:0 15px;

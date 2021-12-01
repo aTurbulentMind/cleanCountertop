@@ -1,14 +1,27 @@
 //colors
 
-$textColorMain: rgb(255, 255, 244);
-$backgroundMain:rgb(11, 8, 14);
+$textColorMain: rgb(246, 250, 251);
+$backgroundMain:rgb(8, 14, 11);
 $backgroundSecond:#235c23ad;
-$clover:#39993A;
+$highlight:#39993A;
 $gradient:linear-gradient(90deg, rgba(5, 14, 5, 1) 0%, rgba(19, 51, 19, 1) 35%, rgba(35, 92, 35, 1) 100%);
 
 
 //font stack
 $font-family: 'Amiko',sans-serif;
+
+// mixins
+
+@mixin greenBack() {
+    background: rgba(56, 229, 42, 0.15);
+    box-shadow: 0 8px 24px 0 rgba(31, 105, 135, 0.137);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: $textColorMain;
+}
+
 
 
 // set txt color

@@ -2,8 +2,9 @@
 	import Nav from '$lib/Nav.svelte';
 </script>
 
+
 <div class="container">
-	<div class="logo"><img src="/src/assets/img/LogoTransparentDark.png" alt=""></div>
+ <!-- <div class="logo"><img src="/src/assets/img/LogoTransparentDark.png" alt=""></div>-->
 
 	<Nav />
 
@@ -14,7 +15,7 @@
 
 <style lang="scss">
 	@import 'vari';
-	
+	@import 'components';
 
 	
 
@@ -26,7 +27,7 @@
 	.container {
 		
 		color: $textColorMain;
-		background: rgb(11, 8, 14);
+		background: $backgroundMain;
 		font-family: 'Amiko', sans-serif;
 	}
 

@@ -1,7 +1,12 @@
 @import 'vari';
 
 h1, h2, h3 {
+
+    @include greenBack();
+
     margin: 15% 17%;
+    width: fit-content;
+    padding: 8px;
 }
 
 
@@ -12,27 +17,28 @@ a {
 
 p {
     text-align: left;
+    padding: 0 20px;
+    line-height: 1.25;
+    margin: 40px 0;
 }
 
 .words {
-    margin: 0 17% 0 5%;
-    padding-right: 5%;
+    margin: 0 ;
+    
 }
 
 li {
     list-style: none;
 }
 
-h2 {
-    background: $gradient;
-    width: 50vw;
-    border-radius: 6%;
-}
+
 
 ul {
     background: $gradient;
     width: 50vw;
 }
+
+
 
 
 
