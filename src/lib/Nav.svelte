@@ -5,16 +5,20 @@
 			<a  href="/">Home</a>
 		</li>
 		<li>
-			<a href="/menu">About</a>
+			<a href="/about">About</a>
 		</li>
 		<li>
-			<a href="/events">Gallery</a>
+			<a href="/budget">Budget</a>
 		</li>
 		<li>
 			<a href="/contact">Contact</a>
 		</li>
 		<li>
-			<a href="tel:+13603778516">Call now!</a>
+			<a href="/gallery">Gallery</a>
+		</li>
+		
+		<li>
+			<a href="tel:+13603778516">Call</a>
 		</li>
 		
 	</ul>
@@ -74,7 +78,7 @@
             line-height: 30px;
             font-size: 3vmax;
             width: 10vmax;
-            margin: 3px 0;
+            margin: 3px 5px;
             padding:0 15px;
             
 

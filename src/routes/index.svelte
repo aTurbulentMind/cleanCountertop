@@ -1,8 +1,9 @@
+
 <div class="art-banner" id="art-banner">
   <div class="art-banner-bg"></div>
   <div class="banner-text">Hello there.</div>
   <div class="badge">
-    <p><a href="/">Call!</a></p>
+    <p><a href="/">Call</a></p>
   </div>
 
   <div class="banner-test">"Kind words Lorem ipsum dolor sit amet, consectetur adipisicing elit." name here</div>
@@ -16,8 +17,13 @@
     <h1 class="title">Hello friend.</h1>
     <p class="words">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, harum.</p>
     <h2>Other words</h2>
-    <p>words and stuff Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint modi beatae dolor ea officia est aliquam. Cum ullam et ipsam vel. Illum dignissimos veniam odit aspernatur ipsa, qui iste amet praesentium ipsam quaerat animi atque dolores? Aut, sapiente dicta.</p>
+    <p>words and stuff Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint modi beatae dolor ea officia est aliquam. Cum ullam et ipsam vel. Illum dignissimos veniam odit aspernatur ipsa,</p>
+
+    <img src="/src/assets/img/tealish2.jpg" alt="">
+
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sit sed facere tempora autem, delectus velit sint nesciunt cupiditate. Facere ratione consequatur vel nobis ea quos laboriosam totam?</p>
+
+
 
     <img src="/src/assets/img/tealish2.jpg" alt="">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ex ratione, cupiditate earum dolorum reiciendis at inventore. Non modi suscipit earum voluptate! Quam consectetur, a quae delectus soluta accusantium assumenda blanditiis culpa, unde tempora amet.</p>
@@ -28,6 +34,8 @@
 
 <style lang="scss">
     @import 'components';
+
+    
 
 
     .art-banner {
@@ -142,10 +150,11 @@ a {
 
     .box {
         background: $backgroundMain;
+        overflow-y: hidden ;
 
         img {
-            width: 100%;
-            height: 100%;
+            width: 90%;
+            height: 90%;
             margin: 15px;
             border-radius: 5px;
         }

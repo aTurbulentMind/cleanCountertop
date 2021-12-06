@@ -3,7 +3,7 @@
 </script>
 
 
-<div class="container">
+<div class="body">
  <!-- <div class="logo"><img src="/src/assets/img/LogoTransparentDark.png" alt=""></div>-->
 
 	<Nav />
@@ -21,15 +21,10 @@
 
 	* {
 		margin: -8px;
-		overflow-x: hidden;
+		
 	}
 
-	.container {
-		
-		color: $textColorMain;
-		background: $backgroundMain;
-		font-family: 'Amiko', sans-serif;
-	}
+	
 
 	.logo {
 		overflow-y:hidden;

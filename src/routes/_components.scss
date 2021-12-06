@@ -12,14 +12,15 @@ h1, h2, h3 {
 
 a {
     
-    color: $textColorMain;
+    color: $highlight;
 }
 
 p {
     text-align: left;
     padding: 0 20px;
-    line-height: 1.25;
+    line-height: 1.5;
     margin: 40px 0;
+    font-size: 3vh;
 }
 
 .words {
@@ -36,6 +37,16 @@ li {
 ul {
     background: $gradient;
     width: 50vw;
+}
+
+
+//
+
+.body {
+
+    color: $textColorMain;
+    background: $backgroundMain;
+    font-family: 'Amiko', sans-serif;
 }
 
 
